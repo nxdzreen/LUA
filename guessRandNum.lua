@@ -5,11 +5,11 @@ math.randomseed(os.time())
 randNum =math.random(10)	-- between 1 and LIMIT
 --num =math.random(10,100)	-- between BOTTOM and LIMIT
 
-print(randNum)
+print(randNum)		--print 'Correct answer'
 
-
+while guess ~= randNum do
 guess = io.read("*n")		--get the input from user
-print(guess)				--reprint the input from user
+--print(guess)				--reprint the input from user
 
 
 if guess < randNum then
@@ -20,4 +20,5 @@ elseif guess > randNum then
 
 elseif guess == randNum then
 	print"Correct Guess"
+end
 end
