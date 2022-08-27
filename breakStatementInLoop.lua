@@ -4,7 +4,7 @@ for i=1,15 do
 	elseif i<10 then
 		print "Below 10"
 	else
-		break	--will go to break statement asfter passing below 10 condition
+		break	--will go to break statement after passing below 10 condition
 	end
 
 	print ("Start Loop Again",i)
