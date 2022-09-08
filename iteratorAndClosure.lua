@@ -1,7 +1,7 @@
 
 	function simpleCounter(max)
 		local count=0
-		return function()		--another function
+		return function()		--another function (anonymous function)
 
 			count = count + 1;	--use 'count' defined locally from outside
 			if count > max then
