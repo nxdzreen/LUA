@@ -1,1 +1,3 @@
 print "HelloLUA"
+
+print "testing"
